@@ -80,4 +80,81 @@ class ImovelSearch extends Imovel
 
         return $dataProvider;
     }
+    
+    public function imoveisDestaque()
+    {
+        $query = Imovel::find();
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+            'pagination' => [
+                'pageSize' => 4,
+                'totalCount' => $query->count()
+            ]
+        ]);
+
+        $query->andFilterWhere(['destaque'=>1]);
+
+        return $dataProvider;
+    }
+
+    public function userSearch($params)
+    {    
+        
+        $query = Imovel::find();
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+            'pagination' => [
+                'pageSize' => 4,
+                'totalCount' => $query->count()
+            ]
+        ]);
+
+        $this->load($params);
+
+        if (!$this->validate()) {
+            // uncomment the following line if you do not want to return any records when validation fails
+            // $query->where('0=1');
+            return $dataProvider;
+        }
+
+        if(!is_null($params['finalidade']))
+            $query->andFilterWhere(['situacao'=>$params['finalidade']]);
+        
+         if(!empty($params['tipo_imovel']))
+            $query->andFilterWhere(['tipo'=>$params['tipo_imovel']]);
+        
+        if(!empty($params['cidade']))
+            $query->innerJoinWith('bairro0')->innerJoinWith('bairro0.cidade0')->andFilterWhere(['cidade.codigo'=>$params['cidade']]);
+        
+        if(!empty($params['bairro']))
+            $query->innerJoinWith('bairro0')->andFilterWhere(['bairro.codigo'=>$params['bairro']]);
+        
+        if(!empty($params['valorMin']))
+            $query->andFilterWhere(['>=', 'valor', $params['valorMin']]);
+        
+        if(!empty($params['valorMax']))
+            $query->andFilterWhere(['<=', 'valor', $params['valorMax']]);
+        
+        if(!empty($params['quartos']))
+        {
+            if(in_array('4+', $params['quartos']))
+                $query->andFilterWhere(['>=', 'quartos', 4]);
+            else
+                $query->andFilterWhere(['quartos'=>$params['quartos']]);
+        }
+        
+        if(!empty($params['vagas']))
+        {
+            if(in_array('4+', $params['vagas']))
+                $query->andFilterWhere(['>=', 'vagas', 4]);
+            else
+                $query->andFilterWhere(['vagas'=>$params['quartos']]);
+        }
+        
+        // exit($query->createCommand()->sql);
+
+        return $dataProvider;
+    }
 }

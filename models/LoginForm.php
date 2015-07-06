@@ -29,8 +29,39 @@ class LoginForm extends Model
             ['rememberMe', 'boolean'],
             // password is validated by validatePassword()
             ['password', 'validatePassword'],
+            ['username', 'verificaAtivo'],
         ];
     }
+
+    /**
+     * Validar usuário ativo.
+     * Este método verifica se o usuário está ativo no sistema.
+     *
+     * @author Tiago - 03/07/2015
+     * @param string $attribute the attribute currently being validated
+     * @param array $params the additional name-value pairs given in the rule
+     */
+    public function verificaAtivo($attribute, $params)
+    {
+        if (!$this->hasErrors()) {
+            $user = $this->getUser();
+
+            if (!$user || $user->ativo == 0) {
+                $this->addError($attribute, 'Usuário inativo');
+            }
+        }
+    }
+
+    public function attributeLabels()
+    {
+        return [
+            'username' => 'E-mail',
+            'password' => 'Senha',
+            'rememberMe' => 'Continuar conectado'
+        ];
+
+    }
+
 
     /**
      * Validates the password.

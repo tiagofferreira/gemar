@@ -14,6 +14,9 @@ use app\models\Cidade;
 use app\models\Caracteristicas;
 use app\models\CaracteristicasImovel;
 use app\models\Bairro;
+use yii\filters\AccessControl;
+use app\components\AccessRule;
+use app\models\User;
 
 /**
  * ImovelController implements the CRUD actions for Imovel model.
@@ -29,6 +32,24 @@ class ImovelController extends Controller
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['post'],
+                ],
+            ],
+
+            'access' => [
+                'class' => AccessControl::className(),
+                'ruleConfig' => [
+                    'class' => AccessRule::className(),
+                ],
+                'only' => ['create', 'update', 'delete'],
+                'rules' => [
+                    [
+                        'actions' => ['create', 'update', 'delete'],
+                        'allow' => true,
+                        'roles' => [
+                            User::MASTER
+                        ],
+                    ],
+               
                 ],
             ],
         ];
@@ -73,9 +94,9 @@ class ImovelController extends Controller
         
         if ($model->load(Yii::$app->request->post()) && $model->validate())
         {
-            $caracteristicas = Yii::$app->request->post('CaracteristicasImovel');
-            
+            $caracteristicas = Yii::$app->request->post('CaracteristicasImovel')['caracteristica'];
             $model->codigo = strtoupper(Yii::$app->request->post('Imovel')['codigo']);
+            
             if($model->save(false))
             {
                 if(!empty($caracteristicas))
@@ -119,29 +140,44 @@ class ImovelController extends Controller
     {
         $model = $this->findModel($id);
         
-        print_r(ArrayHelper::map($model->caracteristicasImovel, 'caracteristica', 'caracteristica'));
-        
         if ($model->load(Yii::$app->request->post()) && $model->save()) 
         {
             //Caracteristicas salvas
             $savedCaract = ArrayHelper::map($model->caracteristicasImovel, 'caracteristica', 'caracteristica');
+            //exit(print_r($savedCaract));
+            //Caracteristicas selecionadas 
+            $caracteristicas = Yii::$app->request->post('CaracteristicasImovel')['caracteristica'];
+                    
             
-            $caracteristicas = Yii::$app->request->post('CaracteristicasImovel');
-            
-            exit(print_r(array_diff($savedCaract, $caracteristicas)));
-                
-            if(!empty($caracteristicas))
+            //Se vazio, as caracteristicas todas foram desmarcadas
+            //Exclui as caracteristicas para este imovel
+            if(empty($caracteristicas) && !empty($savedCaract))
             {
-                //CaracteristicasImovel::
+                CaracteristicasImovel::deleteAll('imovel = '.$model->id);
+            }
+            else
+            {
+                //Só os valores que não existem em ambos
+                $intersec = array_merge(array_diff($savedCaract, $caracteristicas),
+                                        array_diff($caracteristicas, $savedCaract));
                 
-                foreach($caracteristicas as $value)
+                foreach($intersec as $value)
                 {
-                    $caractImovel = new CaracteristicasImovel();
+                    //Se valor já salvo mas não está na seleção, excluir
+                    if(in_array($value, $savedCaract) && !in_array($value, $caracteristicas))
+                    {
+                        CaracteristicasImovel::deleteAll('imovel = '.$model->id.' and caracteristica = '.$value);
+                    }
+                    //Se valor não salvo mas selecionado, inserir
+                    elseif(!in_array($value, $savedCaract) && in_array($value, $caracteristicas))
+                    {
+                        $caractImovel = new CaracteristicasImovel();
 
-                    $caractImovel->imovel = $model->id;
-                    $caractImovel->caracteristica = $value;
+                        $caractImovel->imovel = $model->id;
+                        $caractImovel->caracteristica = $value;
 
-                    $caractImovel->save(false);
+                        $caractImovel->save(false);
+                    }
                 }
             }
             
@@ -151,6 +187,14 @@ class ImovelController extends Controller
         } 
         else
         {
+            
+            $model->valor = str_replace(['R$ ','.',','], ['','','.'], $model->valor);
+            $model->iptu = str_replace(['R$ ','.',','], ['','','.'], $model->iptu);
+            $model->condominio = str_replace(['R$ ','.',','], ['','','.'], $model->condominio);
+            
+            $model->area_util = str_replace(' m²', '', $model->area_util);
+            $model->area_lote = str_replace(' m²', '', $model->area_lote);
+            $model->area_const = str_replace(' m²', '', $model->area_const);     
             
             $tipoImovel = ArrayHelper::map(TipoImovel::find()->orderBy('nome')->all(), 'id', 'nome');
             $cidades = ArrayHelper::map(Cidade::find()->orderBy('nome')->all(), 'codigo', 'nome');            
@@ -193,6 +237,19 @@ class ImovelController extends Controller
     }
 
     /**
+     * Exibe as informações do imóvel selecionado pelo usuário
+    */
+    public function actionGuestView($id)
+    {
+        $this->layout = 'main';
+        
+        return $this->render('guestView', [
+            'model' => $this->findModel($id),
+        ]);
+    }
+        
+    
+    /**
      * Finds the Imovel model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
@@ -207,4 +264,6 @@ class ImovelController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+    
+    
 }

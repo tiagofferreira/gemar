@@ -27,8 +27,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             'codigo',
             ['attribute'=>'tipo', 'value'=>'tipoImovel.nome'],
-            'bairro',
-            'situacao',
+            ['attribute'=>'cidade', 'value'=>'bairro0.cidade0.nome'],
+            ['attribute'=>'bairro', 'value'=>'bairro0.nome'],
+            ['attribute'=>'situacao', 'value'=>'situacaoNome'],
             // 'valor',
             // 'condominio',
             // 'iptu',
@@ -43,7 +44,17 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'varandas',
             // 'descricao:ntext',
 
-            ['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'yii\grid\ActionColumn',
+                'header'=>'Ações',
+             'template' => '{view} {update} {delete} {add-fotos}',
+                'buttons' => [
+                    //Adicionar fotos
+                    'add-fotos' => function ($url, $model, $key) {                        
+                            return Html::a('<span class="glyphicon glyphicon-camera"></span>', 
+                                ['/fotos-imovel/create', 'imovel'=>$model->id], ['title'=>'Gerenciar Fotos']);
+                    },
+                ]
+            ],
         ],
     ]); ?>
 

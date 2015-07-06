@@ -3,11 +3,16 @@
 $params = require(__DIR__ . '/params.php');
 
 $config = [
-    'id' => 'basic',
+    'id' => 'gemar',
     'language'=>'pt-br',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'components' => [
+    
+        //Autorização com base em RBAC
+        'authManager' => [
+            'class' => 'yii\rbac\PhpManager',
+        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '-554llcMbIthrxvaEWsL_6ANf9vBkrUm',

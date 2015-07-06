@@ -4,6 +4,7 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use app\models\User;
 
 use app\components\BuscaWidget;
 
@@ -40,14 +41,17 @@ AppAsset::register($this);
                     ['label' => 'Home', 'url' => ['/site/index']],
                     ['label' => 'A empresa', 'url' => ['/site/about']],
                     ['label' => 'Contato', 'url' => ['/site/contact']],
-                    ['label' => 'Admiistração', 'url' => '', 
-                     'items'=>[
-                        ['label' => 'Grenciar Imóveis', 'url' => ['/imovel/']],
-                     ]
+                    ['label' => 'Administração', 'url' => '', 'visible'=>!Yii::$app->user->isGuest,
+                         'items'=>[
+                            ['label' => 'Gerenciar Imóveis', 'url' => ['/imovel/']],
+                            ['label' => 'Tipos de Imóvel', 'url' => ['/tipo-imovel/'], 'visible'=>(!Yii::$app->user->isGuest && Yii::$app->user->identity->perfil == User::MASTER)],
+                            ['label' => 'Características', 'url' => ['/caracteristicas/'], 'visible'=>(!Yii::$app->user->isGuest && Yii::$app->user->identity->perfil == User::MASTER)],
+                            ['label' => 'Gerenciar Usuários', 'url' => ['/user/'], 'visible'=>(!Yii::$app->user->isGuest && Yii::$app->user->identity->perfil == User::MASTER)],
+                         ]
                     ],
                     Yii::$app->user->isGuest ?
                         ['label' => 'Login', 'url' => ['/site/login']] :
-                        ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+                        ['label' => 'Logout (' . Yii::$app->user->identity->nome . ')',
                             'url' => ['/site/logout'],
                             'linkOptions' => ['data-method' => 'post']],
                 ],

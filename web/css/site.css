@@ -99,3 +99,9 @@ a.desc:after {
     width: 12em;
 /*    float: right;*/
 }
+
+.checkboxgroup li{
+    width: 12em;
+/*    float: right;*/
+}
+

@@ -11,17 +11,20 @@ $this->title = $name;
 ?>
 <div class="site-error">
 
-    <h1><?= Html::encode($this->title) ?></h1>
+    <div class="panel panel-primary" style=" border-color: #003366;">
+      <div class="panel-heading" style="background-color: #003366;"><span class="glyphicon glyphicon-warning-sign">&nbsp;</span><?= Html::encode($this->title) ?></div>
+      <div class="panel-body">
+            <div class="alert alert-danger">
+                <?= nl2br(Html::encode($message)) ?>
+            </div>
 
-    <div class="alert alert-danger">
-        <?= nl2br(Html::encode($message)) ?>
+            <p>
+                O erro acima ocorreu quando o servidor tentou processar sua requisição.
+            </p>
+            <p>
+                Contate o desenvolvedor ou provedor do serviço em caso de dúvidas.
+            </p>
+        </div>
     </div>
-
-    <p>
-        The above error occurred while the Web server was processing your request.
-    </p>
-    <p>
-        Please contact us if you think this is a server error. Thank you.
-    </p>
 
 </div>

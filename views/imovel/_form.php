@@ -12,7 +12,7 @@ use kartik\money\MaskMoney;
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
-<?php $form = ActiveForm::begin(['validateOnSubmit'=>false]); ?>
+<?php $form = ActiveForm::begin(['validateOnSubmit'=>true, 'enableClientValidation'=>false]); ?>
 
 <div class="row">
     
@@ -68,7 +68,8 @@ use kartik\money\MaskMoney;
 
     <?= $form->field($model, 'salas')->textInput() ?>
 
-    
+    <?= $form->field($model, 'destaque')->dropDownList([1=>'Sim', 0=>'Não'], ['prompt'=>'Selecione']) ?>
+
   </div>
     
 </div>

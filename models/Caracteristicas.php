@@ -28,6 +28,8 @@ class Caracteristicas extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['nome'],'required'],
+            [['nome'],'unique'],
             [['nome'], 'string', 'max' => 250]
         ];
     }

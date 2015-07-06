@@ -28,7 +28,9 @@ class TipoImovel extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['nome'], 'string', 'max' => 250]
+            [['nome'], 'string', 'max' => 250],
+            [['nome'], 'required'],
+            [['nome'], 'unique']
         ];
     }
 

@@ -25,6 +25,7 @@ use Yii;
  * @property integer $vagas
  * @property integer $varandas
  * @property string $descricao
+ * @property integer $destaque
  *
  * @property CaracteristicasImovel[] $caracteristicasImovels
  * @property FotosImovel[] $fotosImovels
@@ -52,57 +53,29 @@ class Imovel extends \yii\db\ActiveRecord
     {
         return [
             [['codigo', 'tipo', 'bairro', 'situacao', 'valor', 'area_util', 'banheiros'], 'required'],
-            [['tipo', 'bairro', 'situacao', 'banheiros', 'suites', 'quartos', 'salas', 'vagas', 'varandas'], 'integer'],
+            [['tipo', 'bairro', 'situacao', 'banheiros', 'suites', 'quartos', 'salas', 'vagas', 'varandas', 'destaque'], 'integer'],
             [['valor', 'condominio', 'iptu', 'area_util', 'area_lote', 'area_const'], 'number'],
             [['descricao'], 'string'],
             [['codigo'], 'string', 'max' => 50]
         ];
     }
-
+   
     //Altera o formato exibição de alguns campos
-//    public function afterFind()
-//    {        
-//        //Valores
-////        $this->valor = 'R$ '.number_format($this->valor, 2, ',', '.');
-////        $this->condominio = 'R$ '.number_format($this->condominio, 2, ',', '.');
-////        $this->iptu = 'R$ '.number_format($this->iptu, 2, ',', '.');
-//
-//        //Medidas
-//        $this->area_util = is_null($this->area_util) ?  null : $this->area_util.' m²'; 
-//        $this->area_lote = is_null($this->area_lote) ?  null : $this->area_lote.' m²';         
-//        $this->area_const = is_null($this->area_const) ?  null : $this->area_const.' m²'; 
-//        
-//        parent::afterFind();
-//        
-//    }
-//    
-//    public function beforeValidate()
-//    {
-//        $this->valor = trim(trim($this->valor, 'R$'));
-//        $this->condominio = trim(trim($this->condominio, 'R$'));
-//        $this->iptu = trim(trim($this->iptu, 'R$'));
-//        
-//        $this->area_util = trim(trim($this->area_util, 'm²'));
-//        $this->area_lote = trim(trim($this->area_lote, 'm²'));
-//        $this->area_const = trim(trim($this->area_const, 'm²'));
-//
-//        return parent::beforeValidate();
-//       
-//    }
-//    
-//    public function beforeSave()
-//    {
-//        $this->valor = trim(trim($this->valor, 'R$'));
-//        $this->condominio = trim(trim($this->condominio, 'R$'));
-//        $this->iptu = trim(trim($this->iptu, 'R$'));
-//        
-//        $this->area_util = trim(trim($this->area_util, 'm²'));
-//        $this->area_lote = trim(trim($this->area_lote, 'm²'));
-//        $this->area_const = trim(trim($this->area_const, 'm²'));
-//
-//        return parent::beforeSave();
-//       
-//    }
+    public function afterFind()
+    {                
+        //Valores
+        $this->valor = 'R$ '.number_format($this->valor, 2, ',', '.');
+        $this->condominio = 'R$ '.number_format($this->condominio, 2, ',', '.');
+        $this->iptu = 'R$ '.number_format($this->iptu, 2, ',', '.');
+
+        //Medidas
+        $this->area_util = is_null($this->area_util) ?  null : $this->area_util.' m²'; 
+        $this->area_lote = is_null($this->area_lote) ?  null : $this->area_lote.' m²';         
+        $this->area_const = is_null($this->area_const) ?  null : $this->area_const.' m²'; 
+        
+        parent::afterFind();
+        
+    }
     
     /**
      * @inheritdoc
@@ -128,6 +101,7 @@ class Imovel extends \yii\db\ActiveRecord
             'vagas' => 'Vagas',
             'varandas' => 'Varandas',
             'descricao' => 'Descrição',
+            'destaque' => 'Imóvel Destaque'
         ];
     }
 
@@ -142,7 +116,7 @@ class Imovel extends \yii\db\ActiveRecord
     /**
      * @return \yii\db\ActiveQuery
      */
-    public function getFotosImovels()
+    public function getFotosImovel()
     {
         return $this->hasMany(FotosImovel::className(), ['imovel' => 'id']);
     }

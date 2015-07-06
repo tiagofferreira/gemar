@@ -16,6 +16,9 @@ use Yii;
  */
 class FotosImovel extends \yii\db\ActiveRecord
 {
+    //Atributo para o arquivo
+    public $arquivo;
+    
     /**
      * @inheritdoc
      */
@@ -29,14 +32,13 @@ class FotosImovel extends \yii\db\ActiveRecord
      */
     public function rules()
     {
-        return [
-            [['imovel', 'nome_arquivo', 'nome_hash'], 'required'],
-            [['imovel'], 'integer'],
-            [['nome_arquivo'], 'string', 'max' => 200],
-            [['nome_hash'], 'string', 'max' => 36]
+        return [            
+            //Rules para arquivo
+            [['arquivo'], 'safe'],
+            [['arquivo'], 'file', 'extensions'=>'jpg, png'],
         ];
     }
-
+    
     /**
      * @inheritdoc
      */
