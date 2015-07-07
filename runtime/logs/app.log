@@ -28277,3 +28277,1579 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1436023540.149
     'REQUEST_TIME' => 1436023540
 ]
+2015-07-07 02:46:04 [127.0.0.1][1][lsokm4s7jlcs40ikplsk67omo1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method yii\helpers\Html::textField()' in /var/www/html/gemar/views/busca-imovel/_formBusca.php:194
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-07-07 02:46:04 [127.0.0.1][1][lsokm4s7jlcs40ikplsk67omo1][info][application] $_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35052'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gemar/web/'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436237163.921
+    'REQUEST_TIME' => 1436237163
+]
+2015-07-07 02:46:15 [127.0.0.1][1][lsokm4s7jlcs40ikplsk67omo1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method yii\helpers\Html::text()' in /var/www/html/gemar/views/busca-imovel/_formBusca.php:194
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-07-07 02:46:15 [127.0.0.1][1][lsokm4s7jlcs40ikplsk67omo1][info][application] $_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35053'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/gemar/web/'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436237175.581
+    'REQUEST_TIME' => 1436237175
+]
+2015-07-07 03:05:56 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:05:55 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => ''
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35252'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo='
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo='
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436238355.856
+    'REQUEST_TIME' => 1436238355
+]
+2015-07-07 03:14:27 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:14:26 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'A'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35288'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436238865.228
+    'REQUEST_TIME' => 1436238865
+]
+2015-07-07 03:18:10 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:18:10 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'A'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35292'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436239090.883
+    'REQUEST_TIME' => 1436239090
+]
+2015-07-07 03:20:11 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:20:11 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'A'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35299'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436239211.565
+    'REQUEST_TIME' => 1436239211
+]
+2015-07-07 03:21:35 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:21:35 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'A'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35304'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436239295.131
+    'REQUEST_TIME' => 1436239295
+]
+2015-07-07 03:23:45 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:23:45 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'A'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35325'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436239425.993
+    'REQUEST_TIME' => 1436239425
+]
+2015-07-07 03:24:29 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:24:29 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'A'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35333'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436239469.409
+    'REQUEST_TIME' => 1436239469
+]
+2015-07-07 03:24:39 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:24:39 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'dsd'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35340'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436239479.977
+    'REQUEST_TIME' => 1436239479
+]
+2015-07-07 03:27:20 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:27:20 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'dsd'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35346'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436239640.698
+    'REQUEST_TIME' => 1436239640
+]
+2015-07-07 03:28:52 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:28:52 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'dsd'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35355'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436239732.263
+    'REQUEST_TIME' => 1436239732
+]
+2015-07-07 03:39:25 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:39:25 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'dsd'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35393'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240364.685
+    'REQUEST_TIME' => 1436240364
+]
+2015-07-07 03:40:01 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:40:01 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'dsd'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35402'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240401.104
+    'REQUEST_TIME' => 1436240401
+]
+2015-07-07 03:41:20 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:41:20 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'dsd'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=A'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35409'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240480.683
+    'REQUEST_TIME' => 1436240480
+]
+2015-07-07 03:41:41 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:41:41 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'a'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=dsd'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35417'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240501.937
+    'REQUEST_TIME' => 1436240501
+]
+2015-07-07 03:43:41 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:43:40 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'a'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35418'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240620.993
+    'REQUEST_TIME' => 1436240620
+]
+2015-07-07 03:43:45 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:43:45 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'a'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35418'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240625.019
+    'REQUEST_TIME' => 1436240625
+]
+2015-07-07 03:43:52 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:43:52 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'a'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35423'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240632.004
+    'REQUEST_TIME' => 1436240632
+]
+2015-07-07 03:47:15 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: busca-imovel/buscarCodigo' in /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php:122
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscarCodigo', Array)
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página não encontrada.' in /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2015-07-07 03:47:15 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscarCodigo'
+    'codigo' => 'a'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35427'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240835.272
+    'REQUEST_TIME' => 1436240835
+]
+2015-07-07 03:47:22 [127.0.0.1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'COD123' in 'where clause'' in /var/www/html/gemar/vendor/yiisoft/yii2/db/Command.php:825
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/db/Command.php(825): PDOStatement->execute()
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/db/Command.php(363): yii\db\Command->queryInternal('fetch', NULL)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /var/www/html/gemar/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 /var/www/html/gemar/controllers/BuscaImovelController.php(30): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\BuscaImovelController->actionBuscarCodigo('cod123')
+#6 /var/www/html/gemar/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscar-codigo', Array)
+#9 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#10 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'COD123' in 'where clause'
+The SQL being executed was: SELECT * FROM `imovel` WHERE codigo = COD123' in /var/www/html/gemar/vendor/yiisoft/yii2/db/Schema.php:595
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/db/Command.php(840): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/db/Command.php(363): yii\db\Command->queryInternal('fetch', NULL)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /var/www/html/gemar/vendor/yiisoft/yii2/db/ActiveQuery.php(285): yii\db\Query->one(NULL)
+#4 /var/www/html/gemar/controllers/BuscaImovelController.php(30): yii\db\ActiveQuery->one()
+#5 [internal function]: app\controllers\BuscaImovelController->actionBuscarCodigo('cod123')
+#6 /var/www/html/gemar/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#8 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscar-codigo', Array)
+#9 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#10 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'COD123' in 'where clause'
+)
+
+2015-07-07 03:47:21 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscar-codigo'
+    'codigo' => 'cod123'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35432'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2Fbuscar-codigo&codigo=cod123'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2Fbuscar-codigo&codigo=cod123'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240841.797
+    'REQUEST_TIME' => 1436240841
+]
+2015-07-07 03:47:46 [127.0.0.1][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /var/www/html/gemar/views/busca-imovel/imovel/guestView.php' in /var/www/html/gemar/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /var/www/html/gemar/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/var/www/html/g...', Array, Object(app\controllers\BuscaImovelController))
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('imovel/guestVie...', Array, Object(app\controllers\BuscaImovelController))
+#2 /var/www/html/gemar/controllers/BuscaImovelController.php(38): yii\base\Controller->render('imovel/guestVie...', Array)
+#3 [internal function]: app\controllers\BuscaImovelController->actionBuscarCodigo('cod123')
+#4 /var/www/html/gemar/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscar-codigo', Array)
+#7 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#8 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2015-07-07 03:47:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscar-codigo'
+    'codigo' => 'cod123'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2FbuscarCodigo&codigo=a'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35434'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2Fbuscar-codigo&codigo=cod123'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2Fbuscar-codigo&codigo=cod123'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240866.091
+    'REQUEST_TIME' => 1436240866
+]
+2015-07-07 03:48:42 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\controllers\NotFoundHttpException' not found' in /var/www/html/gemar/controllers/BuscaImovelController.php:40
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2015-07-07 03:48:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscar-codigo'
+    'codigo' => 'a'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2Fbuscar-codigo&codigo=cod123'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35445'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2Fbuscar-codigo&codigo=a'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2Fbuscar-codigo&codigo=a'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240922.419
+    'REQUEST_TIME' => 1436240922
+]
+2015-07-07 03:48:59 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'The requested page does not exist.' in /var/www/html/gemar/controllers/BuscaImovelController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\BuscaImovelController->actionBuscarCodigo('a')
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscar-codigo', Array)
+#4 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#5 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2015-07-07 03:48:59 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscar-codigo'
+    'codigo' => 'a'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2Fbuscar-codigo&codigo=cod123'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35450'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2Fbuscar-codigo&codigo=a'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2Fbuscar-codigo&codigo=a'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240939.043
+    'REQUEST_TIME' => 1436240939
+]
+2015-07-07 03:49:31 [127.0.0.1][1][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Não existe imóvel com o código informado.' in /var/www/html/gemar/controllers/BuscaImovelController.php:41
+Stack trace:
+#0 [internal function]: app\controllers\BuscaImovelController->actionBuscarCodigo('a')
+#1 /var/www/html/gemar/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#2 /var/www/html/gemar/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#3 /var/www/html/gemar/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('buscar-codigo', Array)
+#4 /var/www/html/gemar/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('busca-imovel/bu...', Array)
+#5 /var/www/html/gemar/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 /var/www/html/gemar/web/index.php(12): yii\base\Application->run()
+#7 {main}
+2015-07-07 03:49:31 [127.0.0.1][1][-][info][application] $_GET = [
+    'r' => 'busca-imovel/buscar-codigo'
+    'codigo' => 'a'
+]
+
+$_COOKIE = [
+    '_csrf' => '6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"eDyb9knLOhMmmrngK1FsIstAAZffbXdY\";}'
+    'PHPSESSID' => 'lsokm4s7jlcs40ikplsk67omo1'
+    '_identity' => 'd0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"9bkW9LMiF-Ii06jRBfExSemFpaw1xghi\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.130 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/gemar/web/index.php?r=busca-imovel%2Fbuscar-codigo&codigo=cod123'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2'
+    'HTTP_COOKIE' => '_csrf=6d3386e668a0f120d267a494a26bc2c02233983da5b4cfb26ca4b916554fac40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22eDyb9knLOhMmmrngK1FsIstAAZffbXdY%22%3B%7D; PHPSESSID=lsokm4s7jlcs40ikplsk67omo1; _identity=d0a07c011c3d5849481b319b99247e74e35be31b2f7e7f7498ddafb0363dc1dda%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%229bkW9LMiF-Ii06jRBfExSemFpaw1xghi%22%2C2592000%5D%22%3B%7D'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Ubuntu) Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Ubuntu)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/var/www/html'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/html'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/html/gemar/web/index.php'
+    'REMOTE_PORT' => '35457'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=busca-imovel%2Fbuscar-codigo&codigo=a'
+    'REQUEST_URI' => '/gemar/web/index.php?r=busca-imovel%2Fbuscar-codigo&codigo=a'
+    'SCRIPT_NAME' => '/gemar/web/index.php'
+    'PHP_SELF' => '/gemar/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436240971.242
+    'REQUEST_TIME' => 1436240971
+]

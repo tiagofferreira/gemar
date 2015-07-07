@@ -182,7 +182,40 @@
 
               <div class="form-group">
                 <?= Html::submitButton('Buscar Imóveis', ['class' => 'btn btn-default', 'style'=>'background-color: lightgrey;']) ?>
-              </div>
+              </div>              
+
+        <?= Html::endForm() ?>
+
+        <hr style="border-color: #003366;">
+
+        <?= Html::beginForm(['/busca-imovel/buscar-codigo'], 'get') ?>
+
+          <p>
+            <?= Html::label('Busca por código do imóvel', 'codigo')  ?>
+          </p>
+          <div class="col-md-9">
+            <div class="input-group">              
+              <?= Html::textInput('codigo', null, 
+                  ['class'=>'form-control input-sm', 'placeholder'=>'Código do Imóvel', 
+                    'onkeyup'=>'js: if($(this).val() != "")
+                                    {
+                                      $("#fieldset").prop("disabled", false);
+                                    }
+                                    else
+                                    {
+                                      $("#fieldset").prop("disabled", true);
+                                    }'
+                  ]) ?>
+            
+          
+              <span class="input-group-btn">  
+              <fieldset id="fieldset" disabled>            
+              <?= Html::submitButton('<span class="glyphicon glyphicon-search"></span>', ['class' => 'btn btn-default input-sm', 'style'=>'background-color: lightgrey;']) ?>
+              </fieldset>
+              </span>
+            </div>
+          </div>
+
         <?= Html::endForm() ?>
 
       </div>
